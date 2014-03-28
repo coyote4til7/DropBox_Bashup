@@ -71,14 +71,18 @@
 # Send me pictures!
 # @coyote4til7
 #
-# ----
+# ----      
 
 
-# -----
+# ----- 
+#
 # Version History
+#
 # 2014-03.28: Inital Release
-# 2014-03.28: Minor change to documentation included in file and improvements
-#     to handling deletion of older "hourly" files
+# 2014-03.28: Minor change to documentation included in file, improvements
+#     to handling deletion of older "hourly" files and addition of snarky
+#     comment in version history
+#
 # -----
 
 
