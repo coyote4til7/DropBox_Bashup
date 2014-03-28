@@ -74,6 +74,15 @@
 # ----
 
 
+# -----
+# Version History
+# 2014-03.28: Inital Release
+# 2014-03.28: Minor change to documentation included in file and improvements
+#     to handling deletion of older "hourly" files
+# -----
+
+
+
 # --------------------
 # Configuration
 # What we want to backup
