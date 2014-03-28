@@ -15,14 +15,20 @@
 # better have a lot of disk space
 
 
+# ----
+#
 # Requirements/Supports
 #
 # Should run on any *nix OS (Linux, OS X, etc)
 # Uses a few goodies that should be built-in (e.g. bash, cp)
 # Uses DropBox uploader
 #   Project: https://github.com/andreafabrizi/Dropbox-Uploader
+#
+# ----
 
 
+# ----
+#
 # Setup
 #
 # put this somewhere
@@ -36,25 +42,36 @@
 # add it to your crontab
 #    > crontab -e
 #    */10 * * * * ~/bin/DropBox_BashUp.sh
-# if you want to change how often it runs, change to match what you want
+# To change how often DropBox Bashup runs, change that to match what you want
+#
+# ----
 
 
+# -----
+#
 # That copyright thang
 #
 # (c) 2014, Tim Wood (twood@edao.biz @coyote4til7)
 #
+# This is LikeWare
+#
 # Available for any use as long as all of this block (That copyright thang) 
-# including Like it (below) is kept
+# including Like it is kept. Suggestions, fixes and improvements are welcome!
 #
-# Suggestions, fixes and improvements welcome.
+# If you liked this, found it useful or just like spreading the words,
+# please check out some of the books I've helped create:
 #
-# 
-# Like it?
-# Enough to pay for it? 
-# So much you want to throw money at me? Oh wow. You are cool!
-# Buy me a gift or buy something I helped create:
-# http://amzn.com/w/3JYNSVPIEGSFP
 # http://www.amazon.com/gp/collections/PCx6Sx7l150lD-vvcLqsbkPSA
+#
+# Are you into local? Woo hoo!
+# Encourage your favorite bookstore to stock them!
+#
+# Oh... and I love to see where my books end up
+# Who's hands are holding them? Where are they lurking?
+# Send me pictures!
+# @coyote4til7
+#
+# ----
 
 
 # --------------------
