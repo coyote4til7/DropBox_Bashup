@@ -5,9 +5,9 @@ a simple local and dropbox backup solution for small development projects
 DropBox BashUp was created to provide 
   a simple backup solution for small development projects
 that does
-  frequently local backups (every 10 minutes, kept for two days)
-  keeps zipped daily backups forever
-  saves a copy of the daily zipped backup to DropBox
+* frequently local backups (every 10 minutes, kept for two days)
+* keeps zipped daily backups forever
+* saves a copy of the daily zipped backup to DropBox
    
 It's designed to be simple and dependable but, big projects...
 better have a lot of disk space
@@ -17,9 +17,9 @@ better have a lot of disk space
 
 Requirements/Supports
 
-Should run on any *nix OS (Linux, OS X, etc)
-Uses a few goodies that should be built-in (e.g. bash, cp)
-Uses DropBox uploader
+* Should run on any *nix OS (Linux, OS X, etc)
+* Uses a few goodies that should be built-in (e.g. bash, cp)
+* Uses DropBox uploader
   Project: https://github.com/andreafabrizi/Dropbox-Uploader
 
 ----
@@ -30,10 +30,10 @@ Uses DropBox uploader
 Setup
 
 put this somewhere
-  the crontab instructions below assume it's in ~/bin/DropBox_BashUp.sh
+* the crontab instructions below assume it's in ~/bin/DropBox_BashUp.sh
 
 install DropBox uploader per:
-  http://www.webupd8.org/2013/09/dropbox-uploader-012-$
+* http://www.webupd8.org/2013/09/dropbox-uploader-012-$
 
 tweak the configuration section (default config is for a WaveMaker project)
 
