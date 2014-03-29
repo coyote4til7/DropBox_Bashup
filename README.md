@@ -38,9 +38,9 @@ install DropBox uploader per:
 tweak the configuration section (default config is for a WaveMaker project)
 
 add it to your crontab
-   > crontab -e
-   
-   */10 * * * * ~/bin/DropBox_BashUp.sh
+   > > crontab -e
+   >
+   > */10 * * * * ~/bin/DropBox_BashUp.sh
    
 To change how often DropBox Bashup runs, change that to match what you want
 
