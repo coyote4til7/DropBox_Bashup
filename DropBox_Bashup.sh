@@ -82,6 +82,7 @@
 # 2014-03.28: Minor change to documentation included in file, improvements
 #     to handling deletion of older "hourly" files and addition of snarky
 #     comment in version history
+# 2014-04.08: Improvement to code to delete old "hourly" backups
 #
 # -----
 
