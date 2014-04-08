@@ -153,9 +153,11 @@ if [ "${ct}" = "0" ]; then
       rm ${base}/daily/${ayer}.zip 
     fi
 
-    # remove "hourly" backups more than 36 hours old
+    # remove "hourly" backups unless they are from day 0 (today) or day 1 (yesterday)
     pth=`cwd`
     cd ${base}/hourly/
-    find . -mtime +36 -exec rm {} \;
+    d0=`date +%F -d`
+    d1=`date +%F -d "1 day ago"`
+    ls | grep -v $d0 | grep -v $d1 | xargs /bin/rm -rf
     cd ${pth}
 fi
