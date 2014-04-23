@@ -33,7 +33,7 @@ put this somewhere
 * the crontab instructions below assume it's in ~/bin/DropBox_BashUp.sh
 
 install DropBox uploader per:
-* http://www.webupd8.org/2013/09/dropbox-uploader-012-$
+* http://www.webupd8.org/2013/09/dropbox-uploader-012-released-bash.html
 
 tweak the configuration section (default config is for a WaveMaker project)
 
