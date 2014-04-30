@@ -83,6 +83,7 @@
 #     to handling deletion of older "hourly" files and addition of snarky
 #     comment in version history
 # 2014-04.08: Improvement to code to delete old "hourly" backups
+# 2014-04.30: Bug fix on delete of old hourly backup (all issues appear solved)
 #
 # -----
 
@@ -157,7 +158,7 @@ if [ "${ct}" = "0" ]; then
     # remove "hourly" backups unless they are from day 0 (today) or day 1 (yesterday)
     pth=`cwd`
     cd ${base}/hourly/
-    d0=`date +%F -d`
+    d0=`date +%F`
     d1=`date +%F -d "1 day ago"`
     ls | grep -v $d0 | grep -v $d1 | xargs /bin/rm -rf
     cd ${pth}
